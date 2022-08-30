@@ -67,7 +67,7 @@ To set PYTHONPATH as an environment variable for Windows, you can follow these i
 https://stackoverflow.com/questions/45022655/pythonpath-in-pycharm-and-windows-10-command-line
 ```
 
-To set on macOS, set this command in ther terminal:
+To set on macOS, set this command in the terminal directed to your root folder:
 
 ```bash
 export PYTHONPATH=.
