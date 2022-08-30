@@ -1,4 +1,4 @@
-import src.domain.webdriver as WebDriver
+import config.webdriver as WebDriver
 
 
 class TaskModule:

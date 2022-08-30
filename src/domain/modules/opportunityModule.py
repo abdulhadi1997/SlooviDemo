@@ -1,4 +1,4 @@
-import src.domain.webdriver as WebDriver
+import config.webdriver as WebDriver
 
 
 class OpportunityModule:
@@ -39,7 +39,6 @@ class OpportunityModule:
     lblOpportunityStatus = '//span[@class="Opportunity__statusText"]'
     lblOpportunityNote = '//div[@class="Opportunity__detail"]'
     lblOpportunityContact = '//div[@class="Opportunity__contactName"]'
-
 
     def __init__(self, driver, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -95,4 +94,3 @@ class OpportunityModule:
     def setNote(self, note):
         webdriver = WebDriver.WebDriver(self.driver)
         webdriver.getElementbyXPath(self.inpNote).send_keys(note)
-

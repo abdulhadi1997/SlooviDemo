@@ -2,3 +2,7 @@
 *.png
 *.css
 *.pyc
+*.html
+*.json
+*.html
+reports/reportLogInPage.html
