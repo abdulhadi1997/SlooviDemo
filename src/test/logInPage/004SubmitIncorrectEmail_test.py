@@ -20,7 +20,7 @@ class SubmitIncorrectEmail(Test):
 
         webdriver.getElementbyXPath(loginPage.btnSignIn).click()
         errorMessage = webdriver.getElementbyXPath(loginPage.inpUsername).get_attribute("validationMessage")
-        assert errorMessage == "Please fill in this field."
+        assert errorMessage == "Please fill out this field."
 
         webdriver.getElementbyXPath(loginPage.inpUsername).send_keys('smithwills1989')
         webdriver.getElementbyXPath(loginPage.btnSignIn).click()
@@ -32,7 +32,3 @@ class SubmitIncorrectEmail(Test):
         webdriver.getElementbyXPath(loginPage.btnSignIn).click()
         errorMessage = webdriver.getElementbyXPath(loginPage.inpUsername).get_attribute("validationMessage")
         assert errorMessage == "Please enter a part following '@'. 'smithwills1989@' is incomplete."
-
-
-
-
