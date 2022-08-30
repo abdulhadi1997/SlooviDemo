@@ -53,7 +53,7 @@ Download the chromedriver corresponding to your chrome version from the link bel
   https://chromedriver.chromium.org/downloads
 ```
 
-After download, for selenium to recognise it without setting a path in the framework you should place it in 'C:\Windows' for a Windows OS and in '/usr/local/bin', you can use the command below for macOS
+After download, for selenium to recognise it without setting a path in the framework you should place it in 'C:\Windows' for a Windows OS and in '/usr/local/bin' if your working on a macOS, you can use the command below for macOS:
 
  ```bash
   mv chromedriver /usr/local/bin
